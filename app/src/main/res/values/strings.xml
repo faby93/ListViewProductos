@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">ListView Productos</string>
+    <string name="title_main">categoria:</string>
+    <string name="AddAction">Agregar:</string>
+    <string name="title_txt_add">Ingresar Producto:</string>
+    <string name="hint_txt_add">Nombre Producto:</string>
+    <string name="title_spinner">selecciona su categoria:</string>
+    <string name="label_btn_add">categoria:</string>
 </resources>

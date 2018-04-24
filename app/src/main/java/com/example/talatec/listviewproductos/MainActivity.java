@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
         lProductos.add(data.getStringExtra("Nombre"));
         lcategoria.add(data.getStringExtra("Categoria"));
-        //Toast.makeText(this, "AA : "+data.getStringExtra("Categoria"), Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "Producto : "+data.getStringExtra("Nombre")+" agegado!", Toast.LENGTH_LONG).show();
         actualizarTabla();
     }
 
